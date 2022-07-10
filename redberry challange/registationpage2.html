@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <h3> <span ><img class="king" src="./Vector (3).svg" alt=""></span>Redberry Knight Cup</h3>
+            <div class="backimg">
+                <h2>"WHEN YOU SEE A GOOD MOVE, <br> LOOK FOR A BETTER ONE. "</h2>
+                <h4>EMANUEL LASKER</h4>
+            </div>
+        </div>
+        <div class="right">
+            <p >First Step is Done, Countinue To Finish Onboarding</p>
+            <div class="top">
+            <div class="pages">
+                <div class="first"></div>
+                <div class="line"></div>
+                <div class="second">2</div>
+            </div>
+            <h1>Chess Experience</h1>
+            <form action="./done.html" id="regform">
+            <span>This is Basic information Fields</span>
+            <div class="z">
+                <select name="" required id="" class="level">
+                    <option value="#">level of Knowladge</option>
+                    <option value="begginer">Begginer</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="professional">Professional</option>
+                </select>
+                <div class="x" >
+                    <span  class="choose" >Choose your character</span>
+                    <div class="players" >
+                        
+                        
+                    </div>
+
+<!-- ff -->
+                    <div id="wrapper">
+                        <label for="yes_no_radio">Have you participated in the Redberry Championship? *</label>
+                      <p class="yesno">
+                      <input type="radio" name="yes_no" checked>NO</input>
+                      </p>
+                      <p class="yesno">
+                      <input type="radio" name="yes_no">Yes</input>
+                      </p>
+                      </div>
+
+                      <!-- jf -->
+                    <div class="btttns">
+
+                        <button class="back"><a href="registration.html" class="baack">Back</a></button>
+                       <button class="next"> <a href="done.html" class="done">done</a></button>
+                    </div>
+                  </div>
+                </form>
+            </div>
+            
+        </div>
+        
+        </div>
+        
+    </div>
+    <script src="registration2.js"></script>
+</body>
+<style>
+    #wrapper
+{
+  margin-left: -133px;
+  
+  display: flex;
+  padding:20px;
+}
+    /* .second{ */
+        /* background-color: #E9FAF1; */
+    
+    .first{
+        background-image: url(./double\ mark.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius:8px
+    }
+    .btttns{
+        width: 100%;
+    justify-content: space-between;
+   
+    margin-top: 200px;
+    
+    /* margin-top: 800px; */
+    margin-left: -90px;
+        margin-top: 200px;
+        display: flex;
+        
+        /* margin-top: 800px; */
+    }
+    input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+}
+.done{
+    color: white;
+    
+} 
+.next{
+    background-color: black;
+}
+.x{
+   
+        width: 300px;
+      
+    }
+    img{
+        width: 50px;
+        height: 35px;
+    }
+    .players{
+        /* position: absolute; */
+        visibility: hidden;
+    }
+    select{
+      
+        border: none;
+    border-bottom: 1px solid rgb(182, 182, 182);;
+        height: 30px;
+    }
+    h4{
+        color: white;
+    }
+    .king{
+    width: 10px;
+    margin-right: 10px;
+}
+.baack{
+    color: black;
+}
+   .pl{
+
+    padding: 5px;
+    width: 250px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   }
+   .choose{
+    margin-left: 40px;
+    width: 250px;
+    border-bottom:1px solid rgb(182, 182, 182);
+    display: inline-block;
+    padding: 5px;
+    box-sizing: border-box;
+   }
+.btns{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+input{
+    border:none;
+    border-bottom: 1px solid gray;
+    width: 80%;
+    margin-top: 25px;
+    padding: 3px 10px;
+    box-sizing: border-box;
+}
+input:focus{
+    outline:none;
+    border-bottom: 1px solid gray;
+
+}
+    .top{
+        padding: 70px 50px;
+        box-sizing: border-box;
+    }
+    .top h1{
+        margin-top: 50px;
+    }
+    body{
+        margin: 0px;
+    }
+     .main{
+        display: flex;
+    }
+    .left{
+        width: 50%;
+
+    }
+    .left h2{
+        margin:0px;
+        
+    }
+    .z{
+        display: flex;
+        margin-top: 50px;
+        /* justify-content: space-between;
+        width: 80%; */
+    }
+    /* .left h3{
+        background-color: blueviolet;
+        margin: 0px;
+        padding: 10px 30px;
+    } */
+    .king{
+    width: 10px;
+    margin-right: 10px;
+}
+    .left h3{
+        font-size: 30px;
+    color: white;
+    background-color: blueviolet;
+    margin: 0px;
+    padding: 10px 30px;
+}
+    .right{
+        width: 50%;
+
+    }
+    .backimg{
+        background-image: url(./forreg2.jpg);
+        background-size: 100% 600px;
+        background-size: cover;
+        height: 95.8vh;
+        padding: 100px;
+        box-sizing: border-box;
+    }
+  
+    p{
+        border-bottom: 1px solid gray;
+        height: 60px;
+        margin: 0px;
+        padding: 10px 30px;
+        box-sizing: border-box;
+    }
+    .first,.second{
+        width: 28px;
+        height: 28px;
+        border:1px solid gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        
+    }
+   
+    .pages{
+        display: flex;
+        align-items: center;
+    }
+    .line{
+        height: 1px;
+        width: 150px;
+        background-color: grey;
+    }
+    .second{
+        background-color: #E9FAF1;
+        /* opacity: 0.5; */
+    }
+    .yesno{
+        border: none;
+        margin-top: 20px;
+    margin-left: -250px;
+    }
+</style>
+</html>
